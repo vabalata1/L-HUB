@@ -1,10 +1,8 @@
 local Games = {
 
-local Player, Rayfield, Click, comma, Notify, CreateWindow = loadstring(game:HttpGet("https://raw.githubusercontent.com/vabalata1/a/main/Webhook"))()
 
-local Window = CreateWindow()
 
-	[9264596435] = "https://raw.githubusercontent.com/vabalata1/L-HUB/main/Dunking%20Simulator", -- Idle Heroes Simulator
+	[7655715946] = "https://raw.githubusercontent.com/vabalata1/L-HUB/main/Dunking%20Simulator", -- Idle Heroes Simulator
 	[10925589760] = "https://raw.githubusercontent.com/vabalata1/L-HUB/main/How%20Far%20Can%20You%20Backflip%3F", -- Merge Simulator
   
   
@@ -12,4 +10,8 @@ local Window = CreateWindow()
 
 if Games[game.PlaceId] then
 	loadstring(game:HttpGet(Games[game.PlaceId]))()
+    else
+print('e')
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vabalata1/L-HUB/main/Universal"))()
 end
