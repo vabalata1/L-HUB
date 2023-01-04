@@ -10,7 +10,7 @@
 
 --]]
 
-getgenv().DiscordWebhook = "https://discord.com/api/webhooks/1058775020010229860/QW_eJaekND0W7ZH1l6emLL9OX6uyToiIw1_AKpMuTRBiunxfSR6mciXvPgGDocgGzF0x" -- Discord Webhook Here
+getgenv().DiscordWebhook = "https://discord.com/api/webhooks/1060185342164086814/wyq8lxr73UjHZmgCswKX65FCA6t9y5CMRINj_20UOepimMgmgw8QGDBAFg4qwhY29JQG" -- Discord Webhook Here
 getgenv().embedcolor = "0xf54747" -- Embed Body Color (On left Side of the Embed, You can get HEX Code above ☝) 
 
 --made it into opensourced so people can steal it
