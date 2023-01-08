@@ -12,7 +12,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaQLeak/Scripts/main
 
 
 local Games = {
-	[10598587051] = "https://raw.githubusercontent.com/vabalata1/L-HUB/main/Anime%20Clicker%20Fight",
+	[10714365287] = "https://raw.githubusercontent.com/vabalata1/L-HUB/main/Anime%20Clicker%20Fight",
 	[11884594868] = "https://raw.githubusercontent.com/vabalata1/L-HUB/main/Anime%20Defense%20Simulator",
 	[11885022882] = "https://raw.githubusercontent.com/vabalata1/L-HUB/main/Anime%20Defense%20Simulator",
 	[7655745946] = "https://raw.githubusercontent.com/vabalata1/L-HUB/main/Dunking%20Simulator",
