@@ -219,7 +219,7 @@ Toggle = Farm:CreateToggle({
 local Eggs = Window:CreateTab("Eggs", 4483362458) -- Title, Image
 
 
-local eggsFolder = game:GetService("Players").vabalata1.PlayerGui.UI.SummonSettings.SummonFrame.FrameGUI
+local eggsFolder = game:GetService("Players").LocalPlayer.PlayerGui.UI.SummonSettings.SummonFrame.FrameGUI
 local eggNames = {}
 
 for _, egg in pairs(eggsFolder:GetChildren()) do
