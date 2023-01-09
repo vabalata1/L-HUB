@@ -1,6 +1,6 @@
 
 
-local Player, Rayfield, Click, comma, Notify, CreateWindow = loadstring(game:HttpGet("https://raw.githubusercontent.com/vabalata1/a/main/b"))()
+local Player, Rayfield, Click, comma, Notify, CreateWindow = loadstring(game:HttpGet("https://raw.githubusercontent.com/vabalata1/a/main/Webhook"))()
 
 local Window = CreateWindow()
 
@@ -195,12 +195,12 @@ Toggle = Farm:CreateToggle({
 
 
 
-local areas = game:GetService("Players").LocalPlayer.PlayerGui.UI.MissionSettings.MissionFrame.FrameGUI:GetChildren()
-local areasTable = {}
+
 
 local Tab = Window:CreateTab("Auto Join", 4483362458) -- Title, Image
 
-
+local areas = game:GetService("Players").LocalPlayer.PlayerGui.UI.MissionSettings.MissionFrame.FrameGUI:GetChildren()
+local areasTable = {}
 
 for i,v in pairs(areas) do
     if v:IsA("ImageLabel") then
@@ -373,6 +373,7 @@ local Toggle = Eggs:CreateToggle({
 
 
 
+Rayfield:LoadConfiguration()
 
 
 
