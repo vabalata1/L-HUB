@@ -221,7 +221,7 @@ local Dropdown = Tab:CreateDropdown({
     Options = areasTable
 })
 
-Tab:CreateSection("starts again every 30 seconds to avoid that a person is already inside")
+Tab:CreateSection("starts again every 60 seconds to avoid that a person is already inside")
 
 local Toggle = Tab:CreateToggle({
     Name = "Auto Join [Room] ",
@@ -250,7 +250,7 @@ local Toggle = Tab:CreateToggle({
                 -- Appel de la fonction de rappel du Dropdown ici
                 DropdownCallback(Option)
                 -- Wait for 60 seconds before repeating the loop
-                wait(30)
+                wait(60)
                 
                 if not enabled then
                     break
