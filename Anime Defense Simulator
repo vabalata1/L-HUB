@@ -10,11 +10,8 @@ local Farm = Window:CreateTab("Farm", 4483362458) -- Title, Image
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Players = game:GetService("Players")
 local Workspace = game:GetService("Workspace")
-local areas = game:GetService("Players").LocalPlayer.PlayerGui.UI.MissionSettings.MissionFrame.FrameGUI:GetChildren()
-local areasTable = {}
 local Option = ""
-local eggsFolder = game:GetService("Players").LocalPlayer.PlayerGui.UI.SummonSettings.SummonFrame.FrameGUI
-local eggNames = {}
+
 
 
 
@@ -202,7 +199,8 @@ Toggle = Farm:CreateToggle({
 
 local Tab = Window:CreateTab("Auto Join", 4483362458) -- Title, Image
 
-
+local areas = game:GetService("Players").LocalPlayer.PlayerGui.UI.MissionSettings.MissionFrame.FrameGUI:GetChildren()
+local areasTable = {}
 
 for i,v in pairs(areas) do
     if v:IsA("ImageLabel") then
