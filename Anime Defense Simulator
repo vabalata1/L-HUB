@@ -195,12 +195,13 @@ Toggle = Farm:CreateToggle({
 
 
 
+local areas = game:GetService("Players").LocalPlayer.PlayerGui.UI.MissionSettings.MissionFrame.FrameGUI:GetChildren()
+local areasTable = {}
 
 
 local Tab = Window:CreateTab("Auto Join", 4483362458) -- Title, Image
 
-local areas = game:GetService("Players").LocalPlayer.PlayerGui.UI.MissionSettings.MissionFrame.FrameGUI:GetChildren()
-local areasTable = {}
+
 
 for i,v in pairs(areas) do
     if v:IsA("ImageLabel") then
